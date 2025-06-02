@@ -15,5 +15,6 @@ public class C06_ConfigReaderKullanimi {
         System.out.println(ConfigReader.getProperty("toGecersizPassword")); // 654321
 
         System.out.println(ConfigReader.getProperty("buAksamNeYiyicez?")); // null
+        // olmayan key'leri null dondurur
     }
 }
