@@ -7,6 +7,10 @@ import utilities.Driver;
 
 public class ZeroWebappPage {
 
+    // page classi olusturunca ilk yapmamiz gereken sey
+    // 1- constructor'i gorunur yapmak
+    // 2- page factory'den driveri tanimlamak
+
     public ZeroWebappPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
